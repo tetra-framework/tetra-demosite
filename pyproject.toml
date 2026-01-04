@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools>=77.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tetra-demosite"
+# Uploading to pypi should not be encouraged.
+# Deployments are done using git
+version = "0.0.0"
+description = "Demo website for the Tetra framework"
+requires-python = ">=3.13"
+authors = [
+    { name = "Sam Willis", email="sam.willis@gmail.com"},
+    { name = "Christian González", email = "christian.gonzalez@nerdocs.at" }
+]
+license = "MIT"
+license-files = [
+    "LICENSE"
+]
+readme = "README.md"
+keywords = ["python", "django", "framework", "components"]
+classifiers = [
+    "Private :: Do Not Upload",
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Framework :: Django",
+    "Framework :: Django :: 5",
+    "Framework :: Django :: 6",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development",
+]
+dependencies = [
+    "tetra==0.6.4",
+    "PyYAML~=6.0",
+    "markdown~=3.3",
+    "django-environ~=0.12",
+    "PyYAML>=6.0",
+    "markdown~=3.3",
+    "channels[daphne]~=4.2",
+    "channels_redis~=4.3",
+    "django>=6.0"
+]
+[project.urls]
+Homepage = "https://tetraframework.com"
+Documentation = "https://tetra.readthedocs.io"
+Repository = "https://github.com/tetra-framework/tetra-demosite"
+
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["docs", "tests"]
+
+[tool.setuptools.package-data]
+tetra = ["templates/*", "js/*", "static/*", "scripts/*.sh"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--nomigrations --cov-config=.coveragerc"
+testpaths = [
+    "tests"
+]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.coverage.report]
+exclude_also = [
+    'def __repr__',
+    'if self.debug:',
+    'if settings.DEBUG',
+    'raise AssertionError',
+    'raise NotImplementedError',
+    'if 0:',
+    'if __name__ == .__main__.:',
+    'if TYPE_CHECKING:',
+    'class .*\bProtocol\):',
+    '@(abc\.)?abstractmethod',
+]
+
+[tool.mypy]
+ignore_missing_imports = true
