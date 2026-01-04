@@ -7,6 +7,9 @@ npm:
 test: npm
 	python -m pytest
 
+setup: npm
+	uv sync
+
 #coverage:
 #	coverage run -m pytest
 
@@ -25,7 +28,7 @@ build-js:
 build: npm build-js
 	# remove dist/ if it exists
 	rm -rf dist/
-	python -m build
+	uv build
 
 # https://packaging.python.org/en/latest/tutorials/packaging-projects/#uploading-your-project-to-pypi
 publish:

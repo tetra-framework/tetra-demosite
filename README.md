@@ -24,8 +24,13 @@ This demo site demonstrates various Tetra features including reactive components
 ### Installation
 
 1. Install dependencies:
+
+Install [uv](https://docs.astral.sh/uv/) as package manager (or pip etc.).
+
 ```bash
-pip install .[demo]
+git clone https://github.com/tetra-framework/tetra-demosite.git
+cd tetra-demosite
+uv sync
 ```
 
 2. setup a crontab to purge old session data
