@@ -30,7 +30,7 @@ classifiers = [
     "Topic :: Software Development",
 ]
 dependencies = [
-    "tetra>=0.6.5",
+    "tetra>=0.6.4",
     "PyYAML~=6.0",
     "markdown~=3.3",
     "django-environ~=0.12",
