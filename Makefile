@@ -14,7 +14,7 @@ setup: npm
 #	coverage run -m pytest
 
 check:
-	ruff check src
+	uv run ruff check src
 
 doc:
 	mkdocs build -d docs/build/doc/
@@ -35,19 +35,19 @@ publish:
 	scripts/publish.sh
 
 tetrabuild:
-	$(MANAGE) tetrabuild
+	uv run $(MANAGE) tetrabuild
 
 collectstatic:
-	$(MANAGE) collectstatic --noinput
+	uv run $(MANAGE) collectstatic --noinput
 
 deploy: localecompile tetrabuild collectstatic
 
 localegen:
     # don't --keep-pot
-	$(MANAGE) makemessages --ignore "static/*"  --ignore "build/*" $(LANGUAGES)
-	$(MANAGE) makemessages -d djangojs --ignore "static/*" --ignore "build/*" --ignore "node_modules/*" $(LANGUAGES)
+	uv run $(MANAGE) makemessages --ignore "static/*"  --ignore "build/*" $(LANGUAGES)
+	uv run $(MANAGE) makemessages -d djangojs --ignore "static/*" --ignore "build/*" --ignore "node_modules/*" $(LANGUAGES)
 
 localecompile:
-	$(MANAGE) compilemessages
+	uv run $(MANAGE) compilemessages
 
 locale: localegen localecompile
