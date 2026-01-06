@@ -48,6 +48,6 @@ localegen:
 	uv run $(MANAGE) makemessages -d djangojs --ignore "static/*" --ignore "build/*" --ignore "node_modules/*" $(LANGUAGES)
 
 localecompile:
-	uv run $(MANAGE) compilemessages
+	uv run $(MANAGE) compilemessages --ignore ".venv"
 
 locale: localegen localecompile
