@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-04 00:19+0000\n"
+"POT-Creation-Date: 2026-01-06 17:33+0000\n"
 "PO-Revision-Date: 2024-05-16 10:00+0000\n"
 "Last-Translator: Gemini Code Assist <gemini@google.com>\n"
 "Language-Team: Spanish\n"
@@ -46,7 +46,7 @@ msgstr "Busca una película de los 80..."
 msgid "New task..."
 msgstr "Nueva tarea..."
 
-#: demo/components/default/todo_list/todo_list.html:5
+#: demo/components/default/todo_list/todo_list.html:6
 msgid "Add"
 msgstr "Añadir"
 
@@ -58,9 +58,13 @@ msgstr "Nombre:"
 msgid "Delete"
 msgstr ""
 
-#: demo/components/examples/disable_button/disable_button.html:4
+#: demo/components/examples/disable_button/disable_button.html:5
 msgid "Submit"
 msgstr "Enviar"
+
+#: demo/components/examples/download_button/download_button.html:7
+msgid "Download file"
+msgstr "Descarga archivo"
 
 #: demo/components/examples/spinner/spinner.html:8
 msgid "Load data (local spinner)"
@@ -1189,11 +1193,11 @@ msgstr "Iniciar una empresa de cohetes"
 msgid "Populate Pluto, it's a much cooler planet than Mars"
 msgstr "Poblar Plutón, es un planeta mucho más frío que Marte."
 
-#: demosite/settings.py:138
+#: demosite/settings.py:137
 msgid "English"
 msgstr "Inglés"
 
-#: demosite/settings.py:139
+#: demosite/settings.py:138
 msgid "Spanish"
 msgstr "Español"
 
