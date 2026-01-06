@@ -1,7 +1,6 @@
 import io
 
 from django.http import FileResponse
-from sourcetypes import django_html
 
 from tetra import Component, public
 

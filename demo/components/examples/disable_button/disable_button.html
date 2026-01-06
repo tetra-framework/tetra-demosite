@@ -1,5 +1,8 @@
 {% load i18n %}
 <div {% ... attrs %}>
-  Lorem ipsum dolor
-  <button class="btn btn-primary" @click.prevent="$el.disabled = true; submit()">{% translate "Submit" %}</button>
+  <p>
+    Lorem ipsum dolor
+    <button class="btn btn-primary" @click.prevent="$el.disabled = true; submit()">{% translate "Submit" %}</button>
+  </p>
+  <p>{{ result }}</p>
 </div>
