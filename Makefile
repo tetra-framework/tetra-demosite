@@ -45,7 +45,7 @@ deploy: localecompile tetrabuild collectstatic
 localegen:
     # don't --keep-pot
 	$(MANAGE) makemessages --ignore "static/*"  --ignore "build/*" $(LANGUAGES)
-	$(MANAGE) makemessages -d djangojs --ignore "static/*" --ignore "build/*" $(LANGUAGES)
+	$(MANAGE) makemessages -d djangojs --ignore "static/*" --ignore "build/*" --ignore "node_modules/*" $(LANGUAGES)
 
 localecompile:
 	$(MANAGE) compilemessages
