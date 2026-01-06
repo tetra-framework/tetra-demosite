@@ -107,13 +107,14 @@ def examples(request, slug: str = FIRST_SLUG) -> HttpResponse:
 
     # if there exists a demo, add it
     demo_html = ""
+    demo_html_path = f"examples/{slug}/demo.html"
     try:
-        demo_html = render_to_string(examples_dir / slug / "demo.html", request=request)
+        demo_html = render_to_string(demo_html_path, request=request)
         if demo_html:
             content += f"<hr class='hr'/><h2>{_('Demo')}</h2>"
             content += demo_html
     except TemplateDoesNotExist:
-        pass
+        logger.warning(f"Demo template for {slug} not found: {str(demo_html_path)}")
 
     logger.debug(md.Meta)
     return render(
