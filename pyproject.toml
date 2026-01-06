@@ -79,10 +79,3 @@ exclude_also = [
 [tool.mypy]
 ignore_missing_imports = true
 
-[tool.uv.sources]
-tetra = { path = "../tetra", editable = true }
-
-[dependency-groups]
-dev = [
-    "tetra",
-]
