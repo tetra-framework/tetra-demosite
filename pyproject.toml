@@ -30,7 +30,7 @@ classifiers = [
     "Topic :: Software Development",
 ]
 dependencies = [
-    "tetra>=0.6.4",
+    "tetra==0.6.7",
     "PyYAML~=6.0",
     "markdown~=3.3",
     "django-environ~=0.12",
@@ -38,7 +38,7 @@ dependencies = [
     "markdown~=3.3",
     "channels[daphne]~=4.2",
     "channels_redis~=4.3",
-    "django>=6.0"
+    "django>=6.0",
 ]
 [project.urls]
 Homepage = "https://tetraframework.com"
@@ -78,3 +78,11 @@ exclude_also = [
 
 [tool.mypy]
 ignore_missing_imports = true
+
+[tool.uv.sources]
+tetra = { path = "../tetra", editable = true }
+
+[dependency-groups]
+dev = [
+    "tetra",
+]
