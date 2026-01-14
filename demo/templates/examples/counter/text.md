@@ -8,7 +8,7 @@ The "counter" is basically the "Hello World" demo of components. It is a simple 
 
 The component itself only provides a `count` attribute, and a public `increment()` method.
 
- 'nuff said, show me the code.
+ 'nuff said, show me the code!
 
 {% md_include_component_source "examples.Counter" %}
 
