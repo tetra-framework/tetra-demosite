@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-06 17:45+0000\n"
+"POT-Creation-Date: 2026-01-14 06:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -943,28 +943,36 @@ msgid "Component library packaging"
 msgstr "Empaquetado de biblioteca de componentes"
 
 #: demo/templates/index.html:166
-msgid "Every component belongs to a \\"
-msgstr "Cada componente pertenece a una \\"
+msgid ""
+"Every component belongs to a 'library'; their JS & CSS is packed together "
+"for quicker browser downloads."
+msgstr ""
+"Cada componente pertenece a una «biblioteca»; sus archivos JS y CSS se "
+"empaquetan juntos solo para que las descargas en el navegador sean más rápidas."
 
-#: demo/templates/index.html:168
+#: demo/templates/index.html:167
+msgid "They are built incrementally, only if the source has changed."
+msgstr "Se construyen incrementalmente, solo si la fuente ha cambiado."
+
+#: demo/templates/index.html:169
 msgid "Components with overridable slots"
 msgstr "Componentes con slots anulables"
 
-#: demo/templates/index.html:169
+#: demo/templates/index.html:170
 msgid "Components can have multiple <code>"
 msgstr "Los componentes pueden tener múltiples <code>"
 
-#: demo/templates/index.html:169
+#: demo/templates/index.html:170
 msgid "</code> which can be overridden when used."
 msgstr "</code> que pueden ser anulados cuando se usan."
 
-#: demo/templates/index.html:173
+#: demo/templates/index.html:174
 msgid "JS/CSS builds using <a href=\"https://esbuild.github.io\">esbuild</a>"
 msgstr ""
 "Construcciones JS/CSS usando <a href=\"https://esbuild.github.io\">esbuild</"
 "a>"
 
-#: demo/templates/index.html:176
+#: demo/templates/index.html:177
 msgid ""
 "Both for development (built into <code>runserver</code>) and production your "
 "JS & CSS is built with esbuild."
@@ -972,11 +980,11 @@ msgstr ""
 "Tanto para desarrollo (integrado en <code>runserver</code>) como producción "
 "tu JS y CSS se construyen con esbuild."
 
-#: demo/templates/index.html:179
+#: demo/templates/index.html:180
 msgid "Source Maps"
 msgstr "Mapas de fuente"
 
-#: demo/templates/index.html:180
+#: demo/templates/index.html:181
 msgid ""
 "Source maps are generated during development so that you can track down "
 "errors to the original Python files."
@@ -984,11 +992,11 @@ msgstr ""
 "Los mapas de fuente se generan durante el desarrollo para que puedas "
 "rastrear errores hasta los archivos Python originales."
 
-#: demo/templates/index.html:182
+#: demo/templates/index.html:183
 msgid "Syntax highlighting with type annotations"
 msgstr "Resaltado de sintaxis con anotaciones de tipo"
 
-#: demo/templates/index.html:183
+#: demo/templates/index.html:184
 msgid ""
 "Tetra uses type annotations to syntax highlight your JS, CSS & HTML in your "
 "Python files with a <a href=\"https://github.com/samwillis/python-inline-"
@@ -998,11 +1006,11 @@ msgstr ""
 "en tus archivos Python con un <a href=\"https://github.com/samwillis/python-"
 "inline-source/tree/main/vscode-python-inline-source\">plugin de VS Code</a>"
 
-#: demo/templates/index.html:185
+#: demo/templates/index.html:186
 msgid "Form components"
 msgstr "Componentes de formulario"
 
-#: demo/templates/index.html:186
+#: demo/templates/index.html:187
 msgid ""
 "A simple replacement for Django's FormView, but due to Tetra's dynamic "
 "nature, e.g. a field can change its value or disappear depending on other "
@@ -1012,11 +1020,11 @@ msgstr ""
 "dinámica de Tetra, por ejemplo, un campo puede cambiar su valor o "
 "desaparecer dependiendo de los valores de otros campos."
 
-#: demo/templates/index.html:188
+#: demo/templates/index.html:189
 msgid "Event subscriptions"
 msgstr "Suscripciones a eventos"
 
-#: demo/templates/index.html:189
+#: demo/templates/index.html:190
 msgid ""
 "Both frontend and backend components can subscribe to JavaScript events, "
 "enabling seamless event-driven programming across the full stack."
@@ -1025,11 +1033,11 @@ msgstr ""
 "JavaScript, habilitando programación basada en eventos sin interrupciones en "
 "todo el stack."
 
-#: demo/templates/index.html:191
+#: demo/templates/index.html:192
 msgid "File upload/downloads"
 msgstr "Carga/descarga de archivos"
 
-#: demo/templates/index.html:192
+#: demo/templates/index.html:193
 msgid ""
 "Whenever a form contains a FileField, Tetra makes sure the uploading process "
 "works smooth, even with page reloads."
@@ -1037,11 +1045,11 @@ msgstr ""
 "Cuando un formulario contiene un FileField, Tetra asegura que el proceso de "
 "carga funcione sin problemas, incluso con recargas de página."
 
-#: demo/templates/index.html:194
+#: demo/templates/index.html:195
 msgid "Integration with Django Messages"
 msgstr "Integración con Mensajes de Django"
 
-#: demo/templates/index.html:195
+#: demo/templates/index.html:196
 msgid ""
 "Django's messaging framework is deeply integrated into Tetra: Whenever a new "
 "message occurs, it is transformed into a JavaScript object and sent as an "
@@ -1051,11 +1059,11 @@ msgstr ""
 "Cuando ocurre un nuevo mensaje, se transforma en un objeto JavaScript y se "
 "envía como un evento al que cualquier componente puede suscribirse."
 
-#: demo/templates/index.html:197
+#: demo/templates/index.html:198
 msgid "Loading indicators"
 msgstr "Indicadores de carga"
 
-#: demo/templates/index.html:198
+#: demo/templates/index.html:199
 msgid ""
 "While an AJAX request is in flight, you can show a loading indicator, "
 "globally, per component, or per call."
@@ -1063,11 +1071,11 @@ msgstr ""
 "Mientras una solicitud AJAX está en curso, puedes mostrar un indicador de "
 "carga, globalmente, por componente o por llamada."
 
-#: demo/templates/index.html:200
+#: demo/templates/index.html:201
 msgid "Reactive components / realtime updates"
 msgstr "Componentes reactivos / actualizaciones en tiempo real"
 
-#: demo/templates/index.html:201
+#: demo/templates/index.html:202
 msgid ""
 "Component data can be updated from the server using websockets/push "
 "notification, even by async Django background tasks, Celery, signals etc."
@@ -1076,68 +1084,62 @@ msgstr ""
 "websockets/notificaciones push, incluso mediante tareas asíncronas en "
 "segundo plano de Django, Celery, señales, etc."
 
-#: demo/templates/index.html:206
+#: demo/templates/index.html:204
+msgid "Routing and query strings"
+msgstr ""
+
+#: demo/templates/index.html:205
+msgid ""
+"Router components can serve as top-level page entry points, defining how an "
+"application responds to navigation. They map URL paths to components and "
+"control which sub-components are rendered dynamically based on the current "
+"route, enabling structured navigation and modular page composition."
+msgstr ""
+
+#: demo/templates/index.html:211
 msgid "More features are planned, including:"
 msgstr "Se planean más características, incluyendo:"
 
-#: demo/templates/index.html:209
+#: demo/templates/index.html:214
 msgid "ModelComponent for bootstrapping standard CRUD interactions."
 msgstr "ModelComponent para inicializar interacciones CRUD estándar."
 
-#: demo/templates/index.html:210
-msgid "Python type annotations"
-msgstr "Resaltado de sintaxis con anotaciones de tipo"
-
-#: demo/templates/index.html:211
+#: demo/templates/index.html:215
 msgid "Integration with Django Validators"
 msgstr "Integración con Mensajes de Django"
 
-#: demo/templates/index.html:212
+#: demo/templates/index.html:216
 msgid ""
-"Alpine.js directives for component state (<s>loading ✅</s>, offline  etc.)"
+"Alpine.js directives for component state (<s>loading ✅</s>, offline, etc.)"
 msgstr ""
 "Directivas de Alpine.js para el estado de componente (<s>loading ✅</s>, "
 "offline, etc.)"
 
-#: demo/templates/index.html:213
-msgid "Routing <s>and query strings ✅</s> for \"whole page\" components."
-msgstr ""
-"Enrutamiento <s>y cadenas de consulta ✅</s> para componentes de \"página "
-"completa\"."
-
-#: demo/templates/index.html:214
+#: demo/templates/index.html:217
 msgid "Page title and metadata in header."
 msgstr "Título de página y metadatos en el encabezado."
 
-#: demo/templates/index.html:215
+#: demo/templates/index.html:218
 msgid "Pagination and Infinity Scroll components."
 msgstr "Componentes de paginación y Infinity Scroll."
 
-#: demo/templates/index.html:216
+#: demo/templates/index.html:219
 msgid "PostCSS/SASS/etc. support."
 msgstr "Soporte para PostCSS/SASS/etc."
 
-#: demo/templates/index.html:217
+#: demo/templates/index.html:220
 msgid "CSS scoped to a component."
 msgstr "CSS limitado a un componente."
 
-#: demo/templates/index.html:218
-msgid "Redirect responses."
-msgstr "Respuestas de redirección."
-
-#: demo/templates/index.html:219
+#: demo/templates/index.html:221
 msgid "Additional authentication tools."
 msgstr "Herramientas de autenticación adicionales."
 
-#: demo/templates/index.html:220
+#: demo/templates/index.html:222
 msgid "Integration with UI & component toolkits."
 msgstr "Integración con kits de herramientas de UI y componentes."
 
-#: demo/templates/index.html:221
-msgid "Bundling of esbuild to be npm free."
-msgstr "Empaquetado de esbuild para estar libre de npm."
-
-#: demo/templates/index.html:227
+#: demo/templates/index.html:228
 msgid "Read the Docs to get started"
 msgstr "Lee la documentación para comenzar"
 
@@ -1185,3 +1187,20 @@ msgstr "Inglés"
 #: demosite/settings.py:138
 msgid "Spanish"
 msgstr "Español"
+
+#~ msgid "Every component belongs to a \\"
+#~ msgstr "Cada componente pertenece a una \\"
+
+#~ msgid "Python type annotations"
+#~ msgstr "Resaltado de sintaxis con anotaciones de tipo"
+
+#~ msgid "Routing <s>and query strings ✅</s> for \"whole page\" components."
+#~ msgstr ""
+#~ "Enrutamiento <s>y cadenas de consulta ✅</s> para componentes de \"página "
+#~ "completa\"."
+
+#~ msgid "Redirect responses."
+#~ msgstr "Respuestas de redirección."
+
+#~ msgid "Bundling of esbuild to be npm free."
+#~ msgstr "Empaquetado de esbuild para estar libre de npm."
