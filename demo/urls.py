@@ -7,5 +7,4 @@ urlpatterns = [
     path("", views.home, name="home"),
     path("examples/", views.examples, name="examples-home"),
     path("examples/<slug:slug>/", views.examples, name="examples"),
-    re_path("^app/.*$", views.app_view, name="app_view"),
 ]
