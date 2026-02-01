@@ -5,7 +5,7 @@ from tetra import public, ReactiveComponent
 class NewsTicker(ReactiveComponent):
     headline: str = public("")
     # could be a fixed subscription too:
-    # subscribe = ["notifications.news.headline"]
+    # subscription = "notifications.news.headline"
 
     def load(self, *args, **kwargs) -> None:
         # Fetch random news headline from database
