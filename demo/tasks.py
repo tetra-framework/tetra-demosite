@@ -8,7 +8,7 @@ async def send_breaking_news_to_channel():
     while True:
         news = await BreakingNews.objects.all().order_by("?").afirst()
         print("Sending breaking news:", news.title)
-        await ComponentDispatcher.data_updated(
+        await ComponentDispatcher.data_changed(
             "notifications.news.headline",
             data={
                 "headline": news.title,
