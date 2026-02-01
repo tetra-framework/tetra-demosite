@@ -1,9 +1,10 @@
 from demo.models import ToDo
-from tetra import Component, public
+from tetra import ReactiveComponent, public
 
 
-class TodoList(Component):
+class TodoList(ReactiveComponent):
     title = public("")
+    subscription = "demo.todo"
 
     def load(self, *args, **kwargs):
         self.todos = ToDo.objects.filter(

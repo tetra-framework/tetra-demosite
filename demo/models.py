@@ -1,11 +1,15 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
+from tetra.models import ReactiveModel
 
 
-class ToDo(models.Model):
+class ToDo(ReactiveModel):
     class Meta:
         verbose_name = _("ToDo")
         verbose_name_plural = _("ToDos")
+
+    class Tetra:
+        fields = ["title", "done", "model_version"]
 
     session_key = models.CharField(max_length=40, db_index=True)
     title = models.CharField(max_length=80)

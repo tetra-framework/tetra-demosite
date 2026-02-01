@@ -54,6 +54,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "demo",
 ]
+if DEBUG:
+    INSTALLED_APPS.append("django_extensions")
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",

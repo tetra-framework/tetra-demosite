@@ -1,5 +1,5 @@
 {% load i18n %}
-<div>
+<div {% ... attrs %}>
   <div class="input-group mb-2">
     <input type="text" x-model="title" class="form-control" placeholder="{% translate 'New task...' %}"
            @keyup.enter="add_todo(title)" autofocus>
@@ -7,7 +7,7 @@
   </div>
   <div class="list-group">
     {% for todo in todos %}
-      {% TodoItem todo=todo key=todo.id / %}
+      {% TodoItem todo=todo key=todo.pk / %}
     {% endfor %}
   </div>
 </div>
