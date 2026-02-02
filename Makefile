@@ -7,7 +7,10 @@ npm:
 test: npm
 	python -m pytest
 
-setup: npm
+sync-dev: npm
+	uv sync
+
+sync-production: npm
 	uv sync --no-sources
 
 #coverage:
@@ -40,7 +43,10 @@ tetrabuild:
 collectstatic:
 	uv run $(MANAGE) collectstatic --noinput
 
-deploy: localecompile tetrabuild collectstatic
+migrate:
+	uv run $(MANAGE) migrate
+
+deploy: sync-production migrate localecompile tetrabuild collectstatic
 
 localegen:
     # don't --keep-pot
