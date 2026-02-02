@@ -7,11 +7,9 @@ npm:
 test: npm
 	python -m pytest
 
-sync-dev: npm
+sync: npm
 	uv sync
 
-sync-production: npm
-	uv sync --no-sources
 
 #coverage:
 #	coverage run -m pytest
@@ -46,7 +44,7 @@ collectstatic:
 migrate:
 	uv run $(MANAGE) migrate
 
-deploy: sync-production migrate localecompile tetrabuild collectstatic
+deploy: sync migrate localecompile tetrabuild collectstatic
 
 localegen:
     # don't --keep-pot
