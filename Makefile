@@ -8,7 +8,7 @@ test: npm
 	python -m pytest
 
 setup: npm
-	uv sync
+	uv sync --no-sources
 
 #coverage:
 #	coverage run -m pytest
