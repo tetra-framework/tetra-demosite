@@ -202,7 +202,9 @@
     {% Col title=_("Routing and query strings") %}
     {% translate "Router components can serve as top-level page entry points, defining how an application responds to navigation. They map URL paths to components and control which sub-components are rendered dynamically based on the current route, enabling structured navigation and modular page composition." %}
     {% /Col %}
-
+    {% Col title=_("Alpine.js utils") %}
+    {% translate "Tetra easily lets you show indicators for loading state while requests are in flight, and fires a JavaScript event when your websocket connection goes offline." %}
+    {% /Col %}
   </div>
 
   <h4 class="text-center display-7 my-5" id="features-planned">
@@ -211,7 +213,6 @@
   <p id="plans" class="text-center max-width mt-3">
     •&nbsp;{% translate "ModelComponent for bootstrapping standard CRUD interactions." %} &nbsp;
     •&nbsp;{% translate "Integration with Django Validators" %} &nbsp;
-    •&nbsp;{% blocktranslate %}Alpine.js directives for component state (<s>loading ✅</s>, offline, etc.){% endblocktranslate %} &nbsp;
     •&nbsp;{% translate "Page title and metadata in header." %} &nbsp;
     •&nbsp;{% translate "Pagination and Infinity Scroll components." %} &nbsp;
     •&nbsp;{% translate "PostCSS/SASS/etc. support." %} &nbsp;
