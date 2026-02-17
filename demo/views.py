@@ -4,7 +4,7 @@ import re
 
 import markdown
 from django.conf import settings
-from django.http import HttpResponse, Http404
+from django.http import HttpResponse, HttpResponseRedirect, Http404
 from django.shortcuts import render
 from django.template import TemplateDoesNotExist, Template, RequestContext
 from django.template.loader import render_to_string
@@ -130,3 +130,11 @@ def examples(request, slug: str = FIRST_SLUG) -> HttpResponse:
             "has_demo": bool(demo_html),
         },
     )
+
+
+def set_language_auto(request):
+    """Clear the language cookie to use browser's Accept-Language header."""
+    next_url = request.POST.get("next", request.GET.get("next", "/"))
+    response = HttpResponseRedirect(next_url)
+    response.delete_cookie(settings.LANGUAGE_COOKIE_NAME)
+    return response

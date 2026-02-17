@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-17 22:33+0000\n"
+"POT-Creation-Date: 2026-02-17 22:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -657,6 +657,14 @@ msgstr ""
 "© %(current_year)s <a href=\"https://mobile.twitter.com/samwillis\">Sam "
 "Willis</a>, Christian González"
 
+#: demo/templates/base.html:99
+msgid "Language"
+msgstr "Lenguaje"
+
+#: demo/templates/base.html:109
+msgid "Auto"
+msgstr "Automático"
+
 #: demo/templates/base_examples.html:170
 msgid "Toggle Examples Navigation"
 msgstr "Alternar navegación de ejemplos"
@@ -1091,7 +1099,7 @@ msgstr ""
 
 #: demo/templates/index.html:203
 msgid "Routing and query strings"
-msgstr ""
+msgstr "Enrutamiento y cadenas de consulta"
 
 #: demo/templates/index.html:204
 msgid ""
@@ -1100,12 +1108,15 @@ msgid ""
 "control which sub-components are rendered dynamically based on the current "
 "route, enabling structured navigation and modular page composition."
 msgstr ""
+"Los componentes de enrutador pueden servir como puntos de entrada de página "
+"de nivel superior, definiendo cómo una aplicación responde a la navegación. "
+"Mapean rutas URL a componentes y controlan qué subcomponentes se renderizan "
+"dinámicamente según la ruta actual, habilitando navegación estructurada y "
+"composición modular de páginas."
 
 #: demo/templates/index.html:206
-#, fuzzy
-#| msgid "Alpine.js Docs"
 msgid "Alpine.js utils"
-msgstr "Documentación de Alpine.js"
+msgstr "Utilidades de Alpine.js"
 
 #: demo/templates/index.html:207
 msgid ""
@@ -1113,16 +1124,22 @@ msgid ""
 "in flight, and fires a JavaScript event when your websocket connection goes "
 "offline."
 msgstr ""
+"Tetra te permite mostrar fácilmente indicadores de estado de carga mientras "
+"las solicitudes están en curso, y dispara un evento JavaScript cuando tu "
+"conexión websocket se desconecta."
 
 #: demo/templates/index.html:209
 msgid "Offline Call Queue"
-msgstr ""
+msgstr "Cola de llamadas sin conexión"
 
 #: demo/templates/index.html:210
 msgid ""
 "Server methods a component calls while offline are queued, and automatically "
 "sent when the server is available again. So no click is lost."
 msgstr ""
+"Los métodos de servidor que un componente llama mientras está sin conexión "
+"se ponen en cola y se envían automáticamente cuando el servidor está "
+"disponible nuevamente. Así no se pierde ningún clic."
 
 #: demo/templates/index.html:215
 msgid "More features are planned, including:"
@@ -1211,28 +1228,4 @@ msgstr "Español"
 
 #: demosite/settings.py:141
 msgid "German"
-msgstr ""
-
-#~ msgid ""
-#~ "Alpine.js directives for component state (<s>loading ✅</s>, offline, "
-#~ "etc.)"
-#~ msgstr ""
-#~ "Directivas de Alpine.js para el estado de componente (<s>loading ✅</s>, "
-#~ "offline, etc.)"
-
-#~ msgid "Every component belongs to a \\"
-#~ msgstr "Cada componente pertenece a una \\"
-
-#~ msgid "Python type annotations"
-#~ msgstr "Resaltado de sintaxis con anotaciones de tipo"
-
-#~ msgid "Routing <s>and query strings ✅</s> for \"whole page\" components."
-#~ msgstr ""
-#~ "Enrutamiento <s>y cadenas de consulta ✅</s> para componentes de \"página "
-#~ "completa\"."
-
-#~ msgid "Redirect responses."
-#~ msgstr "Respuestas de redirección."
-
-#~ msgid "Bundling of esbuild to be npm free."
-#~ msgstr "Empaquetado de esbuild para estar libre de npm."
+msgstr "Alemán"

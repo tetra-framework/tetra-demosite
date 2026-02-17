@@ -147,7 +147,12 @@ LOCALE_PATHS = [
 
 TIME_ZONE = "UTC"
 
+# Use browser's Accept-Language header for language detection
 USE_I18N = True
+LANGUAGE_COOKIE_NAME = "django_language"
+LANGUAGE_COOKIE_AGE = None  # Cookie expires when browser closes
+LANGUAGE_COOKIE_HTTPONLY = False
+
 
 USE_TZ = True
 
