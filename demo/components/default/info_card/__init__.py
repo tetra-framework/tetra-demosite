@@ -34,7 +34,7 @@ class InfoCard(Component):
           {{ content }}
         </p>
         <p x-show="!name">
-          {% translate "Enter your name below!" %}
+          {% translate "Enter your name:" %}
         </p>
         <p x-show="name">
             {% translate "Thanks," %} {% livevar name %}

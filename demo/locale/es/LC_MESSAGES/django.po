@@ -24,8 +24,8 @@ msgid "Information"
 msgstr "Información"
 
 #: demo/components/default/info_card/__init__.py:37
-msgid "Enter your name below!"
-msgstr "¡Ingresa tu nombre a continuación!"
+msgid "Enter your name:"
+msgstr "¡Ingresa tu nombre:"
 
 #: demo/components/default/info_card/__init__.py:40
 msgid "Thanks,"
