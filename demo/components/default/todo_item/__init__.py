@@ -7,7 +7,7 @@ class TodoItem(ReactiveComponent):
     title = public("")
     done = public(False)
     model_version = public(0)
-    todo: ToDo | None = None
+    todo: ToDo
 
     def load(self, todo: ToDo, *args, **kwargs):
         self.todo = todo
