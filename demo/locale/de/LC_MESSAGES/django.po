@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-17 22:33+0000\n"
+"POT-Creation-Date: 2026-02-17 21:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,24 +16,22 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
-"1 : 2;\n"
-
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 #: demo/components/default/info_card/__init__.py:26
 msgid "Information"
-msgstr "Información"
+msgstr "Information"
 
 #: demo/components/default/info_card/__init__.py:37
 msgid "Enter your name:"
-msgstr "¡Ingresa tu nombre:"
+msgstr "Geben Sie Ihren Namen ein:"
 
 #: demo/components/default/info_card/__init__.py:40
 msgid "Thanks,"
-msgstr "Gracias,"
+msgstr "Danke,"
 
 #: demo/components/default/info_card/__init__.py:47
 msgid "Your name"
-msgstr "Tu nombre"
+msgstr "Ihr Name"
 
 #: demo/components/default/info_card/__init__.py:55
 msgid "Ok"
@@ -42,632 +40,631 @@ msgstr "Ok"
 #: demo/components/default/reactive_search/reactive_search.html:4
 #: demo/templates/reactive_search.html:4
 msgid "Search for an 80s movie..."
-msgstr "Buscar una película de los 80..."
+msgstr "Suche nach einem 80er-Film..."
 
 #: demo/components/default/todo_list/todo_list.html:4
 msgid "New task..."
-msgstr "Nueva tarea..."
+msgstr "Neue Aufgabe..."
 
 #: demo/components/default/todo_list/todo_list.html:6
 msgid "Add"
-msgstr "Agregar"
+msgstr "Hinzufügen"
 
 #: demo/components/examples/click_to_edit/click_to_edit.html:14
 msgid "Name:"
-msgstr "Nombre:"
+msgstr "Name:"
 
 #: demo/components/examples/delete_row/delete_row.html:5
 msgid "Delete"
-msgstr "Eliminar"
+msgstr "Löschen"
 
 #: demo/components/examples/disable_button/disable_button.html:5
 msgid "Submit"
-msgstr "Enviar"
+msgstr "Absenden"
 
 #: demo/components/examples/download_button/download_button.html:7
 msgid "Download file"
-msgstr "Descargar archivo"
+msgstr "Datei herunterladen"
 
 #: demo/components/examples/spinner/spinner.html:8
 msgid "Load data (local spinner)"
-msgstr "Cargar datos (spinner local)"
+msgstr "Daten laden (lokaler Spinner)"
 
 #: demo/components/examples/spinner/spinner.html:17
 msgid "Load data (external spinner)"
-msgstr "Cargar datos (spinner externo)"
+msgstr "Daten laden (externer Spinner)"
 
 #: demo/models.py:8
 msgid "ToDo"
-msgstr "Tarea"
+msgstr "Aufgabe"
 
 #: demo/models.py:9
 msgid "ToDos"
-msgstr "Tareas"
+msgstr "Aufgaben"
 
 #: demo/models.py:27
 msgid "Breaking news"
-msgstr "Noticias de última hora"
+msgstr "Eilmeldung"
 
 #: demo/movies.py:4
 msgid "A Christmas Story"
-msgstr "Una historia de Navidad"
+msgstr ""
 
 #: demo/movies.py:5
 msgid "A Fish Called Wanda"
-msgstr "Un pez llamado Wanda"
+msgstr ""
 
 #: demo/movies.py:6
 msgid "A Nightmare on Elm Street"
-msgstr "Pesadilla en Elm Street"
+msgstr ""
 
 #: demo/movies.py:7
 msgid "Adventures in Babysitting"
-msgstr "Aventuras de canguro"
+msgstr ""
 
 #: demo/movies.py:8
 msgid "After Hours"
-msgstr "Después de hora"
+msgstr ""
 
 #: demo/movies.py:9
 msgid "Airplane!"
-msgstr "¡Aterriza como puedas!"
+msgstr ""
 
 #: demo/movies.py:10
 msgid "Akira"
-msgstr "Akira"
+msgstr ""
 
 #: demo/movies.py:11
 msgid "Amadeus"
-msgstr "Amadeus"
+msgstr ""
 
 #: demo/movies.py:12
 msgid "Au Revoir, les enfants"
-msgstr "Adiós, muchachos"
+msgstr ""
 
 #: demo/movies.py:13
 msgid "Baby Boom"
-msgstr "Baby Boom"
+msgstr ""
 
 #: demo/movies.py:14
 msgid "Back to the Future"
-msgstr "Volver al futuro"
+msgstr ""
 
 #: demo/movies.py:15
 msgid "Batman"
-msgstr "Batman"
+msgstr ""
 
 #: demo/movies.py:16
 msgid "Beetlejuice"
-msgstr "Beetlejuice"
+msgstr ""
 
 #: demo/movies.py:17
 msgid "Better Off Dead"
-msgstr "Mejor muerto"
+msgstr ""
 
 #: demo/movies.py:18
 msgid "Beverly Hills Cop"
-msgstr "Un detective suelto en Hollywood"
+msgstr ""
 
 #: demo/movies.py:19
 msgid "Big Trouble in Little China"
-msgstr "Golpe en la pequeña China"
+msgstr ""
 
 #: demo/movies.py:20
 msgid "Big"
-msgstr "Big"
+msgstr ""
 
 #: demo/movies.py:21
 msgid "Bill & Ted's Excellent Adventure"
-msgstr "Las alucinantes aventuras de Bill y Ted"
+msgstr ""
 
 #: demo/movies.py:22
 msgid "Blade Runner"
-msgstr "Blade Runner"
+msgstr ""
 
 #: demo/movies.py:23
 msgid "Blue Velvet"
-msgstr "Terciopelo azul"
+msgstr ""
 
 #: demo/movies.py:24
 msgid "Body Heat"
-msgstr "Fuego en el cuerpo"
+msgstr ""
 
 #: demo/movies.py:25
 msgid "Broadcast News"
-msgstr "Al filo de la noticia"
+msgstr ""
 
 #: demo/movies.py:26
 msgid "Caddyshack"
-msgstr "El club de los chalados"
+msgstr ""
 
 #: demo/movies.py:27
 msgid "Coming to America"
-msgstr "El príncipe de Zamunda"
+msgstr ""
 
 #: demo/movies.py:28
 msgid "Commando"
-msgstr "Commando"
+msgstr ""
 
 #: demo/movies.py:29
 msgid "Dead Poets Society"
-msgstr "La sociedad de los poetas muertos"
+msgstr ""
 
 #: demo/movies.py:30
 msgid "Desperately Seeking Susan"
-msgstr "Buscando desesperadamente a Susan"
+msgstr ""
 
 #: demo/movies.py:31
 msgid "Die Hard"
-msgstr "Duro de matar"
+msgstr ""
 
 #: demo/movies.py:32
 msgid "Dirty Dancing"
-msgstr "Dirty Dancing"
+msgstr ""
 
 #: demo/movies.py:33
 msgid "Do the Right Thing"
-msgstr "Haz lo correcto"
+msgstr ""
 
 #: demo/movies.py:34
 msgid "Dragonslayer"
-msgstr "El dragón del lago de fuego"
+msgstr ""
 
 #: demo/movies.py:35
 msgid "Drugstore Cowboy"
-msgstr "Drugstore Cowboy"
+msgstr ""
 
 #: demo/movies.py:36
 msgid "E.T. the Extra-Terrestrial"
-msgstr "E.T. el extraterrestre"
+msgstr ""
 
 #: demo/movies.py:37
 msgid "Eddie Murphy: Delirious"
-msgstr "Eddie Murphy: Delirious"
+msgstr ""
 
 #: demo/movies.py:38
 msgid "Escape From New York"
-msgstr "1997: Rescate en Nueva York"
+msgstr ""
 
 #: demo/movies.py:39
 msgid "Evil Dead 2"
-msgstr "Terroríficamente muertos 2"
+msgstr ""
 
 #: demo/movies.py:40
 msgid "Fast Times at Ridgemont High"
-msgstr "Picardías estudiantiles"
+msgstr ""
 
 #: demo/movies.py:41
 msgid "Ferris Bueller's Day Off"
-msgstr "Todo en un día"
+msgstr ""
 
 #: demo/movies.py:42
 msgid "Field of Dreams"
-msgstr "Campo de sueños"
+msgstr ""
 
 #: demo/movies.py:43
 msgid "Flashdance"
-msgstr "Flashdance"
+msgstr ""
 
 #: demo/movies.py:44
 msgid "Flight of the Navigator"
-msgstr "El vuelo del navegante"
+msgstr ""
 
 #: demo/movies.py:45
 msgid "Footloose"
-msgstr "Footloose"
+msgstr ""
 
 #: demo/movies.py:46
 msgid "Friday the 13th"
-msgstr "Viernes 13"
+msgstr ""
 
 #: demo/movies.py:47
 msgid "Full Metal Jacket"
-msgstr "La chaqueta metálica"
+msgstr ""
 
 #: demo/movies.py:48
 msgid "Ghostbusters"
-msgstr "Los cazafantasmas"
+msgstr ""
 
 #: demo/movies.py:49
 msgid "Grave of the Fireflies"
-msgstr "La tumba de las luciérnagas"
+msgstr ""
 
 #: demo/movies.py:50
 msgid "Gremlins"
-msgstr "Gremlins"
+msgstr ""
 
 #: demo/movies.py:51
 msgid "Hannah and Her Sisters"
-msgstr "Hannah y sus hermanas"
+msgstr ""
 
 #: demo/movies.py:52
 msgid "Heathers"
-msgstr "Heathers"
+msgstr ""
 
 #: demo/movies.py:53
 msgid "Highlander"
-msgstr "Los inmortales"
+msgstr ""
 
 #: demo/movies.py:54
 msgid "Indiana Jones and the Last Crusade"
-msgstr "Indiana Jones y la última cruzada"
+msgstr ""
 
 #: demo/movies.py:55
 msgid "Indiana Jones and the Temple of Doom"
-msgstr "Indiana Jones y el templo maldito"
+msgstr ""
 
 #: demo/movies.py:56
 msgid "Krush Groove"
-msgstr "Krush Groove"
+msgstr ""
 
 #: demo/movies.py:57
 msgid "Labyrinth"
-msgstr "Laberinto"
+msgstr ""
 
 #: demo/movies.py:58
 msgid "Ladyhawke"
-msgstr "Ladyhawke"
+msgstr ""
 
 #: demo/movies.py:59
 msgid "Lethal Weapon"
-msgstr "Arma mortal"
+msgstr ""
 
 #: demo/movies.py:60
 msgid "Little Shop of Horrors"
-msgstr "La pequeña tienda de los horrores"
+msgstr ""
 
 #: demo/movies.py:61
 msgid "Lost in America"
-msgstr "Perdidos en América"
+msgstr ""
 
 #: demo/movies.py:62
 msgid "Mad Max 2"
-msgstr "Mad Max 2"
+msgstr ""
 
 #: demo/movies.py:63
 msgid "Moonstruck"
-msgstr "Hechizo de luna"
+msgstr ""
 
 #: demo/movies.py:64
 msgid "My Left Foot"
-msgstr "Mi pie izquierdo"
+msgstr ""
 
 #: demo/movies.py:65
 msgid "My Life as a Dog"
-msgstr "Mi vida como un perro"
+msgstr ""
 
 #: demo/movies.py:66
 msgid "My Neighbor Totoro"
-msgstr "Mi vecino Totoro"
+msgstr ""
 
 #: demo/movies.py:67
 msgid "Mystery Train"
-msgstr "Mystery Train"
+msgstr ""
 
 #: demo/movies.py:68
 msgid "Mystic Pizza"
-msgstr "Mystic Pizza"
+msgstr ""
 
 #: demo/movies.py:69
 msgid "National Lampoon's Vacation"
-msgstr "Vacaciones"
+msgstr ""
 
 #: demo/movies.py:70
 msgid "Near Dark"
-msgstr "Sangre fácil"
+msgstr ""
 
 #: demo/movies.py:71
 msgid "Paris, Texas"
-msgstr "París, Texas"
+msgstr ""
 
 #: demo/movies.py:72
 msgid "Planes, Trains and Automobiles"
-msgstr "Un billete de ida y vuelta"
+msgstr ""
 
 #: demo/movies.py:73
 msgid "Platoon"
-msgstr "Pelotón"
+msgstr ""
 
 #: demo/movies.py:74
 msgid "Poltergeist"
-msgstr "Poltergeist"
+msgstr ""
 
 #: demo/movies.py:75
 msgid "Predator"
-msgstr "Depredador"
+msgstr ""
 
 #: demo/movies.py:76
 msgid "Pretty in Pink"
-msgstr "La chica de rosa"
+msgstr ""
 
 #: demo/movies.py:77
 msgid "Purple Rain"
-msgstr "Purple Rain"
+msgstr ""
 
 #: demo/movies.py:78
 msgid "Raging Bull"
-msgstr "Toro salvaje"
+msgstr ""
 
 #: demo/movies.py:79
 msgid "Raiders of the Lost Ark"
-msgstr "En busca del arca perdida"
+msgstr ""
 
 #: demo/movies.py:80
 msgid "Raising Arizona"
-msgstr "Arizona Baby"
+msgstr ""
 
 #: demo/movies.py:81
 msgid "Ran"
-msgstr "Ran"
+msgstr ""
 
 #: demo/movies.py:82
 msgid "Re-Animator"
-msgstr "Re-Animator"
+msgstr ""
 
 #: demo/movies.py:83
 msgid "Real Genius"
-msgstr "Genio verdadero"
+msgstr ""
 
 #: demo/movies.py:84
 msgid "Repo Man"
-msgstr "Repo Man"
+msgstr ""
 
 #: demo/movies.py:85
 msgid "Return to Oz"
-msgstr "Regreso a Oz"
+msgstr ""
 
 #: demo/movies.py:86
 msgid "Revenge of the Nerds"
-msgstr "La venganza de los nerds"
+msgstr ""
 
 #: demo/movies.py:87
 msgid "Risky Business"
-msgstr "Negocios riesgosos"
+msgstr ""
 
 #: demo/movies.py:88
 msgid "RoboCop"
-msgstr "RoboCop"
+msgstr ""
 
 #: demo/movies.py:89
 msgid "Say Anything..."
-msgstr "Di cualquier cosa..."
+msgstr ""
 
 #: demo/movies.py:90
 msgid "Scanners"
-msgstr "Scanners"
+msgstr ""
 
 #: demo/movies.py:91
 msgid "Scarface"
-msgstr "Scarface"
+msgstr ""
 
 #: demo/movies.py:92
 msgid "Short Circuit"
-msgstr "Cortocircuito"
+msgstr ""
 
 #: demo/movies.py:93
 msgid "Sid & Nancy"
-msgstr "Sid y Nancy"
+msgstr ""
 
 #: demo/movies.py:94
 msgid "Sixteen Candles"
-msgstr "Dieciséis velas"
+msgstr ""
 
 #: demo/movies.py:95
 msgid "Sleepaway Camp"
-msgstr "Campamento sangriento"
+msgstr ""
 
 #: demo/movies.py:96
 msgid "Spaceballs"
-msgstr "La loca historia de las galaxias"
+msgstr ""
 
 #: demo/movies.py:97
 msgid "St. Elmo's Fire"
-msgstr "El fuego de San Telmo"
+msgstr ""
 
 #: demo/movies.py:98
 msgid "Stand by Me"
-msgstr "Cuenta conmigo"
+msgstr ""
 
 #: demo/movies.py:99
 msgid "Star Wars: Episode V -- The Empire Strikes Back"
-msgstr "La guerra de las galaxias: Episodio V - El imperio contraataca"
+msgstr ""
 
 #: demo/movies.py:100
 msgid "Star Wars: Episode VI -- Return of the Jedi"
-msgstr "La guerra de las galaxias: Episodio VI - El regreso del Jedi"
+msgstr ""
 
 #: demo/movies.py:101
 msgid "Steel Magnolias"
-msgstr "Magnolias de acero"
+msgstr ""
 
 #: demo/movies.py:102
 msgid "Stop Making Sense"
-msgstr "Stop Making Sense"
+msgstr ""
 
 #: demo/movies.py:103
 msgid "Stripes"
-msgstr "Stripes"
+msgstr ""
 
 #: demo/movies.py:104
 msgid "Terms of Endearment"
-msgstr "La fuerza del cariño"
+msgstr ""
 
 #: demo/movies.py:105
 msgid "The Adventures of Buckaroo Banzai Across the Eighth Dimension"
-msgstr "Las aventuras de Buckaroo Banzai a través de la octava dimensión"
+msgstr ""
 
 #: demo/movies.py:106
 msgid "The Blues Brothers"
-msgstr "Los hermanos Caradura"
+msgstr ""
 
 #: demo/movies.py:107
 msgid "The Boat"
-msgstr "El submarino"
+msgstr ""
 
 #: demo/movies.py:108
 msgid "The Breakfast Club"
-msgstr "El club de los cinco"
+msgstr ""
 
 #: demo/movies.py:109
 msgid "The Color Purple"
-msgstr "El color púrpura"
+msgstr ""
 
 #: demo/movies.py:110
 msgid "The Goonies"
-msgstr "Los Goonies"
+msgstr ""
 
 #: demo/movies.py:111
 msgid "The Karate Kid"
-msgstr "Karate Kid"
+msgstr ""
 
 #: demo/movies.py:112
 msgid "The Killer"
-msgstr "El asesino"
+msgstr ""
 
 #: demo/movies.py:113
 msgid "The Land Before Time"
-msgstr "En busca del valle encantado"
+msgstr ""
 
 #: demo/movies.py:114
 msgid "The Last Starfighter"
-msgstr "El último guerrero de las estrellas"
+msgstr ""
 
 #: demo/movies.py:115
 msgid "The Little Mermaid"
-msgstr "La sirenita"
+msgstr ""
 
 #: demo/movies.py:116
 msgid "The Lost Boys"
-msgstr "Los muchachos perdidos"
+msgstr ""
 
 #: demo/movies.py:117
 msgid "The Naked Gun"
-msgstr "Agárralo como puedas"
+msgstr ""
 
 #: demo/movies.py:118
 msgid "The Neverending Story"
-msgstr "La historia interminable"
+msgstr ""
 
 #: demo/movies.py:119
 msgid "The Princess Bride"
-msgstr "La princesa prometida"
+msgstr ""
 
 #: demo/movies.py:120
 msgid "The Return of the Living Dead"
-msgstr "El regreso de los muertos vivientes"
+msgstr ""
 
 #: demo/movies.py:121
 msgid "The Shining"
-msgstr "El resplandor"
+msgstr ""
 
 #: demo/movies.py:122
 msgid "The Terminator"
-msgstr "Terminator"
+msgstr ""
 
 #: demo/movies.py:123
 msgid "The Thing"
-msgstr "La cosa"
+msgstr ""
 
 #: demo/movies.py:124
 msgid "The Toxic Avenger"
-msgstr "El vengador tóxico"
+msgstr ""
 
 #: demo/movies.py:125
 msgid "The Transformers: The Movie"
-msgstr "Transformers: La película"
+msgstr ""
 
 #: demo/movies.py:126
 msgid "The Untouchables"
-msgstr "Los intocables"
+msgstr ""
 
 #: demo/movies.py:127
 msgid "They Live"
-msgstr "Están vivos"
+msgstr ""
 
 #: demo/movies.py:128
 msgid "This Is Spinal Tap"
-msgstr "This Is Spinal Tap"
+msgstr ""
 
 #: demo/movies.py:129
 msgid "Time Bandits"
-msgstr "Los héroes del tiempo"
+msgstr ""
 
 #: demo/movies.py:130
 msgid "To Live and Die in L.A."
-msgstr "Vivir y morir en Los Ángeles"
+msgstr ""
 
 #: demo/movies.py:131
 msgid "Tootsie"
-msgstr "Tootsie"
+msgstr ""
 
 #: demo/movies.py:132
 msgid "Top Gun"
-msgstr "Top Gun"
+msgstr ""
 
 #: demo/movies.py:133
 msgid "Trading Places"
-msgstr "Entre pillos anda el juego"
+msgstr ""
 
 #: demo/movies.py:134
 msgid "Tron"
-msgstr "Tron"
+msgstr ""
 
 #: demo/movies.py:135
 msgid "UHF"
-msgstr "UHF"
+msgstr ""
 
 #: demo/movies.py:136
 msgid "Valley Girl"
-msgstr "Valley Girl"
+msgstr ""
 
 #: demo/movies.py:137
 msgid "Wall Street"
-msgstr "Wall Street"
+msgstr ""
 
 #: demo/movies.py:138
 msgid "WarGames"
-msgstr "Juegos de guerra"
+msgstr ""
 
 #: demo/movies.py:139
 msgid "Weird Science"
-msgstr "La mujer explosiva"
+msgstr ""
 
 #: demo/movies.py:140
 msgid "When Harry Met Sally..."
-msgstr "Cuando Harry encontró a Sally..."
+msgstr ""
 
 #: demo/movies.py:141
 msgid "Who Framed Roger Rabbit"
-msgstr "¿Quién engañó a Roger Rabbit?"
+msgstr ""
 
 #: demo/movies.py:142
 msgid "Willow"
-msgstr "Willow"
+msgstr ""
 
 #: demo/movies.py:143
 msgid "Working Girl"
-msgstr "Armas de mujer"
+msgstr ""
 
 #: demo/templates/base.html:91
 #, python-format
 msgid ""
 "© %(current_year)s <a href=\"https://mobile.twitter.com/samwillis\">Sam "
 "Willis</a>, Christian González"
-msgstr ""
-"© %(current_year)s <a href=\"https://mobile.twitter.com/samwillis\">Sam "
+msgstr "© %(current_year)s <a href=\"https://mobile.twitter.com/samwillis\">Sam "
 "Willis</a>, Christian González"
 
 #: demo/templates/base_examples.html:170
 msgid "Toggle Examples Navigation"
-msgstr "Alternar navegación de ejemplos"
+msgstr "Beispiele-Navigation umschalten"
 
 #: demo/templates/base_examples.html:173
 msgid "Toggle Navigation"
-msgstr "Alternar navegación"
+msgstr "Navigation umschalten"
 
 #: demo/templates/base_examples.html:179 demo/templates/index.html:38
 msgid "Examples"
-msgstr "Ejemplos"
+msgstr "Beispiele"
 
 #: demo/templates/base_examples.html:189 demo/templates/index.html:35
 msgid "GitHub"
@@ -679,40 +676,38 @@ msgstr "Twitter"
 
 #: demo/templates/base_examples.html:206
 msgid "Browse Examples"
-msgstr "Explorar ejemplos"
+msgstr "Beispiele durchsuchen"
 
 #: demo/templates/base_examples.html:207
 msgid "Close"
-msgstr "Cerrar"
+msgstr "Schließen"
 
 #: demo/templates/base_examples.html:237
 msgid "Tetra Docs"
-msgstr "Documentación de Tetra"
+msgstr "Tetra-Dokumentation"
 
 #: demo/templates/base_examples.html:240
 msgid "Alpine.js Docs"
-msgstr "Documentación de Alpine.js"
+msgstr "Alpine.js-Dokumentation"
 
 #: demo/templates/base_examples.html:243
 msgid "Django Docs"
-msgstr "Documentación de Django"
+msgstr "Django-Dokumentation"
 
 #: demo/templates/base_examples.html:249
 msgid "On this page"
-msgstr "En esta página"
+msgstr "Auf dieser Seite"
 
 #: demo/templates/examples/click_to_edit/demo.html:4
 msgid "Click the line below to start editing."
-msgstr "Haz clic en la línea de abajo para comenzar a editar."
+msgstr "Klicken Sie auf die Zeile unten, um die Bearbeitung zu starten."
 
 #: demo/templates/index.html:19
 msgid ""
 "Full stack reactive component framework for <a href=\"http://djangoproject."
 "com\">Django</a> using <a href=\"https://alpinejs.dev\">Alpine.js</a>"
-msgstr ""
-"Framework de componentes reactivos full stack para <a href=\"http://"
-"djangoproject.com\">Django</a> usando <a href=\"https://alpinejs."
-"dev\">Alpine.js</a>"
+msgstr "Full-Stack-Reactive-Komponenten-Framework für <a href=\"http://djangoproject."
+"com\">Django</a> mit <a href=\"https://alpinejs.dev\">Alpine.js</a>"
 
 #: demo/templates/index.html:22
 msgid ""
@@ -722,50 +717,48 @@ msgid ""
 "server state</mark> to enable <mark>inplace reactive updates</mark>. It also "
 "encapsulates your Python, HTML, JavaScript and CSS into one file or "
 "directory for <mark>proximity of related concerns</mark>."
-msgstr ""
-"Tetra es un nuevo <mark>framework de componentes full stack</mark> para "
-"Django, que conecta tu lógica de servidor con la presentación frontend.\n"
-"          Utiliza un <mark>estado compartido público</mark> y un "
-"<mark>estado de servidor reanudable</mark> para habilitar "
-"<mark>actualizaciones reactivas en el lugar</mark>. También encapsula tu "
-"Python, HTML, JavaScript y CSS en un archivo o directorio para "
-"<mark>proximidad de preocupaciones relacionadas</mark>."
+msgstr "Tetra ist ein neues <mark>Full-Stack-Komponenten-Framework</mark> für Django, "
+"das die Lücke zwischen Server-Logik und Frontend-Präsentation schließt.\n"
+"          Es verwendet einen <mark>gemeinsam genutzten öffentlichen Zustand</mark> und einen <mark>wiederaufnehmbaren "
+"Server-Zustand</mark>, um <mark>reaktive Updates an Ort und Stelle</mark> zu ermöglichen. Außerdem "
+"kapselt es Python, HTML, JavaScript und CSS in einer Datei oder "
+"einem Verzeichnis für <mark>räumliche Nähe zusammengehöriger Belange</mark>."
 
 #: demo/templates/index.html:27
 msgid "Features"
-msgstr "Características"
+msgstr "Funktionen"
 
 #: demo/templates/index.html:31
 msgid "Get Started"
-msgstr "Comenzar"
+msgstr "Loslegen"
 
 #: demo/templates/index.html:44
 msgid "See how easy it is to build a <mark>todo list</mark>:"
-msgstr "Mira lo fácil que es construir una <mark>lista de tareas</mark>:"
+msgstr "So einfach erstellt man eine <mark>Todo-Liste</mark>:"
 
 #: demo/templates/index.html:47
 msgid "Python: Todo List"
-msgstr "Python: Lista de tareas"
+msgstr "Python: Aufgabenliste"
 
 #: demo/templates/index.html:48
 msgid "Python: Todo Item"
-msgstr "Python: Elemento de tarea"
+msgstr "Python: Aufgabenelement"
 
 #: demo/templates/index.html:50
 msgid "HTML: Todo List"
-msgstr "HTML: Lista de tareas"
+msgstr "HTML: Aufgabenliste"
 
 #: demo/templates/index.html:51
 msgid "HTML: Todo Item"
-msgstr "HTML: Elemento de tarea"
+msgstr "HTML: Aufgabenelement"
 
 #: demo/templates/index.html:56
 msgid "Python: Models"
-msgstr "Python: Modelos"
+msgstr "Python: Modelle"
 
 #: demo/templates/index.html:64
 msgid "Or a reactive server rendered search component:"
-msgstr "O un componente de búsqueda renderizado por servidor reactivo:"
+msgstr "Oder eine reaktive, serverseitig gerenderte Suchkomponente:"
 
 #: demo/templates/index.html:66 demo/templates/index.html:78
 #: demo/templates/index.html:88 demo/templates/index.html:98
@@ -778,36 +771,32 @@ msgstr "HTML"
 
 #: demo/templates/index.html:76
 msgid "Or a counter, but with multiple nested instances."
-msgstr "O un contador, pero con múltiples instancias anidadas."
+msgstr "Oder ein Zähler, aber mit mehreren verschachtelten Instanzen."
 
 #: demo/templates/index.html:79 demo/templates/index.html:89
 #: demo/templates/index.html:100
 msgid "Django Template"
-msgstr "Plantilla Django"
+msgstr "Django-Template"
 
 #: demo/templates/index.html:86
 msgid "Or a simple card, with dynamic content."
-msgstr "O una tarjeta simple, con contenido dinámico."
+msgstr "Oder eine einfache Karte mit dynamischem Inhalt."
 
 #: demo/templates/index.html:96
 msgid ""
 "Not convinced? How about a reactive news ticker with push notifications?"
-msgstr ""
-"¿No estás convencido? ¿Qué tal un ticker de noticias reactivo con "
-"notificaciones push?"
+msgstr "Nicht überzeugt? Wie wäre es mit einem reaktiven Newsticker mit Push-Benachrichtigungen?"
 
 #: demo/templates/index.html:101
 msgid "Async server code"
-msgstr "Código de servidor asíncrono"
+msgstr "Asynchroner Server-Code"
 
 #: demo/templates/index.html:115
 msgid ""
 "The following (partly fake) news line is not polled, but pushed from the "
 "server to all connected clients simultaneously each 10 seconds."
-msgstr ""
-"La siguiente línea de noticias (parcialmente falsa) no es consultada, sino "
-"enviada desde el servidor a todos los clientes conectados simultáneamente "
-"cada 10 segundos."
+msgstr "Die folgende (teilweise fake-) News-Zeile wird nicht abgefragt, sondern alle "
+"10 Sekunden vom Server gleichzeitig an alle verbundenen Clients gesendet."
 
 #: demo/templates/index.html:119
 msgid ""
@@ -820,278 +809,248 @@ msgid ""
 "        An async django task worker is pushing the news to all connected "
 "clients.\n"
 "      "
-msgstr ""
-"\n"
-"        Esto puede parecer trivial, podrías hacerlo con polling también. "
-"Pero Tetra es más inteligente que eso.<br/>\n"
-"        <a href=\".\" target=\"_blank\">Abre múltiples navegadores/pestañas "
-"con esta misma página</a>, incluso en tu teléfono,\n"
-"        y observa cómo las noticias cambian simultáneamente.<br/>\n"
-"        Un worker de tareas asíncrono de Django está enviando las noticias a "
-"todos los clientes conectados.\n"
+msgstr "\n"
+"        Das mag trivial erscheinen, man könnte so etwas auch mit Polling machen. Aber "
+"Tetra kann mehr.<br/>\n"
+"        <a href=\".\" target=\"_blank\">Öffnen Sie mehrere Browser/Tabs mit "
+"dieser Seite</a>, sogar auf Ihrem Telefon,\n"
+"        und beobachten Sie, wie sich die News gleichzeitig ändern.<br/>\n"
+"        Ein asynchroner Django-Task-Worker sendet die Nachrichten an alle verbundenen "
+"Clients.\n"
 "      "
 
 #: demo/templates/index.html:132
 msgid "What does Tetra do?"
-msgstr "¿Qué hace Tetra?"
+msgstr "Was macht Tetra?"
 
 #: demo/templates/index.html:137
 msgid ""
 "<a href=\"http://djangoproject.com\">Django</a> on the  backend, <a "
 "href=\"https://alpinejs.dev\">Alpine.js</a> in the browser"
-msgstr ""
-"<a href=\"http://djangoproject.com\">Django</a> en el backend, <a "
-"href=\"https://alpinejs.dev\">Alpine.js</a> en el navegador"
+msgstr "<a href=\"http://djangoproject.com\">Django</a> im Backend, <a "
+"href=\"https://alpinejs.dev\">Alpine.js</a> im Browser"
 
 #: demo/templates/index.html:140
 msgid ""
 "Tetra combines the power of Django with Alpine.js to make development easier "
 "and  quicker."
-msgstr ""
-"Tetra combina el poder de Django con Alpine.js para hacer el desarrollo más "
-"fácil y rápido."
+msgstr "Tetra kombiniert die Kraft von Django mit Alpine.js, um die Entwicklung einfacher "
+"und schneller zu machen."
 
 #: demo/templates/index.html:143
 msgid "Component encapsulation"
-msgstr "Encapsulación de componentes"
+msgstr "Komponenten-Kapselung"
 
 #: demo/templates/index.html:144
 msgid ""
 "Each component combines its Python, HTML, CSS and JavaScript in one place "
 "for close proximity of related code."
-msgstr ""
-"Cada componente combina su Python, HTML, CSS y JavaScript en un solo lugar "
-"para la proximidad cercana de código relacionado."
+msgstr "Jede Komponente vereint Python, HTML, CSS und JavaScript an einem Ort "
+"für eine enge Nähe des zugehörigen Codes."
 
 #: demo/templates/index.html:146
 msgid "Async HTTP calls"
-msgstr "Llamadas HTTP asíncronas"
+msgstr "Asynchrone HTTP-Aufrufe"
 
 #: demo/templates/index.html:147
 msgid ""
 "Server calls are asynchronous, ensuring the frontend remains responsive. "
 "Multiple, fast clicks on the same button are not dropped between HTTP calls."
-msgstr ""
-"Las llamadas al servidor son asíncronas, asegurando que el frontend "
-"permanezca receptivo. Múltiples clics rápidos en el mismo botón no se "
-"pierden entre llamadas HTTP."
+msgstr "Server-Aufrufe sind asynchron, sodass das Frontend reaktionsschnell bleibt. "
+"Mehrere schnelle Klicks auf dieselbe Schaltfläche gehen zwischen HTTP-Aufrufen nicht verloren."
 
 #: demo/templates/index.html:149
 msgid "Resumable server state"
-msgstr "Estado de servidor reanudable"
+msgstr "Fortsetzbarer Server-Zustand"
 
 #: demo/templates/index.html:150
 msgid ""
 "The components' full server state is saved between public method calls. This "
 "state is <a href=\"https://tetra.readthedocs.io/en/latest/state-security/"
 "\">encrypted for security</a>."
-msgstr ""
-"El estado completo del servidor del componente se guarda entre llamadas a "
-"métodos públicos. Este estado está <a href=\"https://tetra.readthedocs.io/en/"
-"latest/state-security/\">encriptado por seguridad</a>."
+msgstr "Der vollständige Server-Zustand der Komponenten wird zwischen öffentlichen Methodenaufrufen gespeichert. Dieser "
+"Zustand ist <a href=\"https://tetra.readthedocs.io/en/latest/state-security/"
+"\">aus Sicherheitsgründen verschlüsselt</a>."
 
 #: demo/templates/index.html:152
 msgid "Public server methods"
-msgstr "Métodos públicos de servidor"
+msgstr "Öffentliche Server-Methoden"
 
 #: demo/templates/index.html:153
 msgid ""
 "Methods can be made public, allowing you to easily call them from JS on the "
 "front end, resuming the component's state."
-msgstr ""
-"Los métodos pueden hacerse públicos, permitiéndote llamarlos fácilmente "
-"desde JS en el frontend, reanudando el estado del componente."
+msgstr "Methoden können öffentlich gemacht werden, sodass Sie sie einfach aus JS im "
+"Frontend aufrufen und den Zustand der Komponente fortsetzen können."
 
 #: demo/templates/index.html:155
 msgid "Shared public state"
-msgstr "Estado público compartido"
+msgstr "Shared public state"
 
 #: demo/templates/index.html:156
-#, fuzzy
-#| msgid ""
-#| "Attributes can be decorated as <i>public</i> to indicate they should be "
-#| "available in the browser as Alpine.js data objects."
 msgid ""
-"Attributes can be decorated as <i>@public</i> to indicate they should be "
-"available in the browser as Alpine.js data objects."
-msgstr ""
-"Los atributos pueden ser decorados con <i>@public</i> para indicar que deben "
-"estar disponibles en el navegador como objetos de datos de Alpine.js."
+"Attributes can be decorated as <i>@public</i> to indicate they should be available in the "
+"browser as Alpine.js data objects."
+msgstr "Attribute können mit <i>@public</i> dekoriert werden, um anzugeben, dass sie im "
+"Browser als Alpine.js-Datenobjekte verfügbar sein sollen."
 
 #: demo/templates/index.html:158
 msgid "Server \"watcher\" methods"
-msgstr "Métodos \"observadores\" de servidor"
+msgstr "Server-\"Watcher\"-Methoden"
 
 #: demo/templates/index.html:159
 msgid ""
 "Public methods can be instructed to watch a public attribute, enabling "
 "reactive re-rendering on the server."
-msgstr ""
-"Los métodos públicos pueden ser instruidos para observar un atributo "
-"público, habilitando re-renderizado reactivo en el servidor."
+msgstr "Öffentliche Methoden können angewiesen werden, ein öffentliches Attribut zu beobachten, was "
+"reaktives Re-Rendering auf dem Server ermöglicht."
 
 #: demo/templates/index.html:161
 msgid "Inplace updating from the server"
-msgstr "Actualización en el lugar desde el servidor"
+msgstr "Inplace-Aktualisierung vom Server"
 
 #: demo/templates/index.html:162
 msgid ""
 "Server methods can update the rendered component in place. Powered by the "
 "Alpine.js morph plugin."
-msgstr ""
-"Los métodos de servidor pueden actualizar el componente renderizado en el "
-"lugar. Impulsado por el plugin morph de Alpine.js."
+msgstr "Server-Methoden können die gerenderte Komponente an Ort und Stelle aktualisieren. Angetrieben vom "
+"Alpine.js Morph-Plugin."
 
 #: demo/templates/index.html:164
 msgid "Component library packaging"
-msgstr "Empaquetado de biblioteca de componentes"
+msgstr "Component library packaging"
 
 #: demo/templates/index.html:165
 msgid ""
 "Every component belongs to a 'library'; their JS & CSS is packed together "
 "for quicker browser downloads."
-msgstr ""
-"Cada componente pertenece a una «biblioteca»; sus archivos JS y CSS se "
-"empaquetan juntos solo para que las descargas en el navegador sean más "
-"rápidas."
+msgstr "Jede Komponente gehört zu einer 'Bibliothek'; ihr JS & CSS wird zusammen gepackt "
+"für schnellere Browser-Downloads."
 
 #: demo/templates/index.html:166
 msgid "They are built incrementally, only if the source has changed."
-msgstr "Se construyen incrementalmente, solo si la fuente ha cambiado."
+msgstr "Sie werden inkrementell erstellt, nur wenn sich die Quelle geändert hat."
 
 #: demo/templates/index.html:168
 msgid "Components with overridable slots"
-msgstr "Componentes con slots anulables"
+msgstr "Komponenten mit überschreibbaren Slots"
 
 #: demo/templates/index.html:169
 msgid "Components can have multiple <code>"
-msgstr "Los componentes pueden tener múltiples <code>"
+msgstr "Komponenten können mehrere <code>"
 
 #: demo/templates/index.html:169
 msgid "</code> which can be overridden when used."
-msgstr "</code> que pueden ser anulados cuando se usan."
+msgstr "</code> haben, die bei der Verwendung überschrieben werden können."
 
 #: demo/templates/index.html:173
 msgid "JS/CSS builds using <a href=\"https://esbuild.github.io\">esbuild</a>"
-msgstr ""
-"Construcciones JS/CSS usando <a href=\"https://esbuild.github.io\">esbuild</"
-"a>"
+msgstr "JS/CSS-Builds mit <a href=\"https://esbuild.github.io\">esbuild</a>"
 
 #: demo/templates/index.html:176
 msgid ""
 "Both for development (built into <code>runserver</code>) and production your "
 "JS & CSS is built with esbuild."
-msgstr ""
-"Tanto para desarrollo (integrado en <code>runserver</code>) como producción "
-"tu JS y CSS se construyen con esbuild."
+msgstr "Sowohl für die Entwicklung (integriert in <code>runserver</code>) als auch für die Produktion wird "
+"Ihr JS & CSS mit esbuild erstellt."
 
 #: demo/templates/index.html:179
 msgid "Source Maps"
-msgstr "Mapas de fuente"
+msgstr "Source Maps"
 
 #: demo/templates/index.html:180
 msgid ""
 "Source maps are generated during development so that you can track down "
 "errors to the original Python files."
-msgstr ""
-"Los mapas de fuente se generan durante el desarrollo para que puedas "
-"rastrear errores hasta los archivos Python originales."
+msgstr "Source Maps werden während der Entwicklung generiert, sodass Sie "
+"Fehler bis zu den ursprünglichen Python-Dateien zurückverfolgen können."
 
 #: demo/templates/index.html:182
 msgid "Syntax highlighting with type annotations"
-msgstr "Resaltado de sintaxis con anotaciones de tipo"
+msgstr "Syntaxhervorhebung mit <i>type annotations</i>"
 
 #: demo/templates/index.html:183
 msgid ""
 "Tetra uses type annotations to syntax highlight your JS, CSS & HTML in your "
 "Python files with a <a href=\"https://github.com/samwillis/python-inline-"
 "source/tree/main/vscode-python-inline-source\">VS Code plugin</a>"
-msgstr ""
-"Tetra usa anotaciones de tipo para resaltar la sintaxis de tu JS, CSS y HTML "
-"en tus archivos Python con un <a href=\"https://github.com/samwillis/python-"
-"inline-source/tree/main/vscode-python-inline-source\">plugin de VS Code</a>"
+msgstr "Tetra verwendet Typ-Annotationen zur Syntaxhervorhebung Ihres JS, CSS & HTML in Ihren "
+"Python-Dateien mit einem <a href=\"https://github.com/samwillis/python-inline-"
+"source/tree/main/vscode-python-inline-source\">VS Code-Plugin</a>"
 
 #: demo/templates/index.html:185
 msgid "Form components"
-msgstr "Componentes de formulario"
+msgstr "Formularkomponenten"
 
 #: demo/templates/index.html:186
 msgid ""
 "A simple replacement for Django's FormView, but due to Tetra's dynamic "
 "nature, e.g. a field can change its value or disappear depending on other "
 "fields' values."
-msgstr ""
-"Un reemplazo simple para FormView de Django, pero debido a la naturaleza "
-"dinámica de Tetra, por ejemplo, un campo puede cambiar su valor o "
-"desaparecer dependiendo de los valores de otros campos."
+msgstr "Ein einfacher Ersatz für Djangos FormView, aber aufgrund von Tetras dynamischer "
+"Natur kann z.B. ein Feld seinen Wert ändern oder verschwinden, abhängig von den Werten anderer "
+"Felder."
 
 #: demo/templates/index.html:188
 msgid "Event subscriptions"
-msgstr "Suscripciones a eventos"
+msgstr "Event-Subscriptions"
 
 #: demo/templates/index.html:189
 msgid ""
 "Both frontend and backend components can subscribe to JavaScript events, "
 "enabling seamless event-driven programming across the full stack."
-msgstr ""
-"Tanto los componentes frontend como backend pueden suscribirse a eventos "
-"JavaScript, habilitando programación basada en eventos sin interrupciones en "
-"todo el stack."
+msgstr "Sowohl Frontend- als auch Backend-Komponenten können JavaScript-Events abonnieren, "
+"was eine nahtlose ereignisgesteuerte Programmierung über den gesamten Stack ermöglicht."
 
 #: demo/templates/index.html:191
 msgid "File upload/downloads"
-msgstr "Carga/descarga de archivos"
+msgstr "Datei-Uploads/Downloads"
 
 #: demo/templates/index.html:192
 msgid ""
 "Whenever a form contains a FileField, Tetra makes sure the uploading process "
 "works smooth, even with page reloads."
-msgstr ""
-"Cuando un formulario contiene un FileField, Tetra asegura que el proceso de "
-"carga funcione sin problemas, incluso con recargas de página."
+msgstr "Wenn ein Formular ein FileField enthält, sorgt Tetra dafür, dass der Upload-Prozess "
+"reibungslos funktioniert, auch beim Page-Reload."
 
 #: demo/templates/index.html:194
 msgid "Integration with Django Messages"
-msgstr "Integración con Mensajes de Django"
+msgstr "Integration mit Django Messages"
 
 #: demo/templates/index.html:195
 msgid ""
 "Django's messaging framework is deeply integrated into Tetra: Whenever a new "
 "message occurs, it is transformed into a JavaScript object and sent as an "
 "event that can be subscribed to by any component."
-msgstr ""
-"El framework de mensajería de Django está profundamente integrado en Tetra: "
-"Cuando ocurre un nuevo mensaje, se transforma en un objeto JavaScript y se "
-"envía como un evento al que cualquier componente puede suscribirse."
+msgstr "Djangos Messaging-Framework ist tief in Tetra integriert: Sobald eine neue "
+"Nachricht auftritt, wird sie in ein JavaScript-Objekt umgewandelt und als "
+"Ereignis gesendet, das von jeder Komponente abonniert werden kann."
 
 #: demo/templates/index.html:197
 msgid "Loading indicators"
-msgstr "Indicadores de carga"
+msgstr "Ladeindikatoren"
 
 #: demo/templates/index.html:198
 msgid ""
 "While an AJAX request is in flight, you can show a loading indicator, "
 "globally, per component, or per call."
-msgstr ""
-"Mientras una solicitud AJAX está en curso, puedes mostrar un indicador de "
-"carga, globalmente, por componente o por llamada."
+msgstr "Während eine AJAX-Anfrage läuft, können Sie einen Ladeindikator anzeigen: "
+"global, pro Komponente oder pro Aufruf."
 
 #: demo/templates/index.html:200
 msgid "Reactive components / realtime updates"
-msgstr "Componentes reactivos / actualizaciones en tiempo real"
+msgstr "Reaktive Komponenten / Echtzeit-Updates"
 
 #: demo/templates/index.html:201
 msgid ""
 "Component data can be updated from the server using websockets/push "
 "notification, even by async Django background tasks, Celery, signals etc."
-msgstr ""
-"Los datos del componente pueden actualizarse desde el servidor usando "
-"websockets/notificaciones push, incluso mediante tareas asíncronas en "
-"segundo plano de Django, Celery, señales, etc."
+msgstr "Komponentendaten können vom Server über WebSockets/Push-"
+"Benachrichtigungen aktualisiert werden, auch durch asynchrone Django-Hintergrundtasks, Celery, Signale usw."
 
 #: demo/templates/index.html:203
 msgid "Routing and query strings"
-msgstr ""
+msgstr "Routing und Query-Strings"
 
 #: demo/templates/index.html:204
 msgid ""
@@ -1099,140 +1058,120 @@ msgid ""
 "application responds to navigation. They map URL paths to components and "
 "control which sub-components are rendered dynamically based on the current "
 "route, enabling structured navigation and modular page composition."
-msgstr ""
+msgstr "Router-Komponenten können als übergeordnete Seiteneinstiegspunkte dienen und definieren, wie eine "
+"Anwendung auf Navigation reagiert. Sie mappen URL-Pfade auf Komponenten und "
+"steuern, welche Unterkomponenten dynamisch basierend auf der aktuellen "
+"Route gerendert werden, was strukturierte Navigation und modulare Seitenkomposition ermöglicht."
 
 #: demo/templates/index.html:206
-#, fuzzy
-#| msgid "Alpine.js Docs"
 msgid "Alpine.js utils"
-msgstr "Documentación de Alpine.js"
+msgstr "Alpine.js-Utils"
 
 #: demo/templates/index.html:207
 msgid ""
 "Tetra easily lets you show indicators for loading state while requests are "
 "in flight, and fires a JavaScript event when your websocket connection goes "
 "offline."
-msgstr ""
+msgstr "Mit Tetra können Sie Ladeindikatoren während laufender Anfragen anzeigen "
+"und es löst ein JavaScript-Event aus, wenn die WebSocket-Verbindung "
+"unterbrochen wird."
 
 #: demo/templates/index.html:209
 msgid "Offline Call Queue"
-msgstr ""
+msgstr "Offline-Aufruf-Warteschlange"
 
 #: demo/templates/index.html:210
 msgid ""
 "Server methods a component calls while offline are queued, and automatically "
 "sent when the server is available again. So no click is lost."
-msgstr ""
+msgstr "Server-Methoden, die eine Komponente im Offline-Zustand aufruft, werden in die Warteschlange gestellt und automatisch "
+"gesendet, wenn der Server wieder verfügbar ist. So geht kein Klick verloren."
 
 #: demo/templates/index.html:215
 msgid "More features are planned, including:"
-msgstr "Se planean más características, incluyendo:"
+msgstr "Weitere Funktionen sind geplant, darunter:"
 
 #: demo/templates/index.html:218
 msgid "ModelComponent for bootstrapping standard CRUD interactions."
-msgstr "ModelComponent para inicializar interacciones CRUD estándar."
+msgstr "ModelComponent zum Bootstrappen von Standard-CRUD-Interaktionen."
 
 #: demo/templates/index.html:219
 msgid "Integration with Django Validators"
-msgstr "Integración con Mensajes de Django"
+msgstr "Integration mit Django-Validatoren"
 
 #: demo/templates/index.html:220
 msgid "Page title and metadata in header."
-msgstr "Título de página y metadatos en el encabezado."
+msgstr "Seitentitel und Metadaten im Header."
 
 #: demo/templates/index.html:221
 msgid "Pagination and Infinity Scroll components."
-msgstr "Componentes de paginación y Infinity Scroll."
+msgstr "Paginierungs- und Infinity-Scroll-Komponenten."
 
 #: demo/templates/index.html:222
 msgid "PostCSS/SASS/etc. support."
-msgstr "Soporte para PostCSS/SASS/etc."
+msgstr "PostCSS/SASS/usw.-Unterstützung."
 
 #: demo/templates/index.html:223
 msgid "CSS scoped to a component."
-msgstr "CSS limitado a un componente."
+msgstr "CSS auf eine Komponente beschränkt."
 
 #: demo/templates/index.html:224
 msgid "Additional authentication tools."
-msgstr "Herramientas de autenticación adicionales."
+msgstr "Zusätzliche Authentifizierungs-Tools."
 
 #: demo/templates/index.html:225
 msgid "Integration with UI & component toolkits."
-msgstr "Integración con kits de herramientas de UI y componentes."
+msgstr "Integration mit UI- und Komponententoolkits."
 
 #: demo/templates/index.html:231
 msgid "Read the Docs to get started"
-msgstr "Lee la documentación para comenzar"
+msgstr "Lesen Sie die Dokumentation, um loszulegen"
 
 #: demo/templates/info_card.py:8
 msgid "I'm so excited!"
-msgstr "¡Estoy tan emocionado!"
+msgstr "Ich bin so aufgeregt!"
 
 #: demo/templates/info_card.py:9
 msgid "We got news for you."
-msgstr "Tenemos noticias para ti."
+msgstr "Wir haben Neuigkeiten für Sie."
 
 #: demo/templates/info_card.py:19
 #, python-brace-format
 msgid "Hi {name}! No further news."
-msgstr "¡Hola {name}! No hay más noticias."
+msgstr "Hallo {name}! Keine weiteren Neuigkeiten."
 
 #: demo/utils.py:6
 msgid "Discover Tetra"
-msgstr "Descubre Tetra"
+msgstr "Tetra entdecken"
 
 #: demo/utils.py:7
 msgid "Install and explore Tetra"
-msgstr "Instala y explora Tetra"
+msgstr "Tetra installieren und erkunden"
 
 #: demo/utils.py:8
 msgid "Decide to build your next startup using Tetra"
-msgstr "Decide construir tu próxima startup usando Tetra"
+msgstr "Entscheiden Sie sich, Ihr nächstes Startup mit Tetra zu bauen"
 
 #: demo/utils.py:9
 msgid "Become a billionaire"
-msgstr "Conviértete en multimillonario"
+msgstr "Werden Sie Milliardär"
 
 #: demo/utils.py:10
 msgid "Start a rocket company"
-msgstr "Inicia una empresa de cohetes"
+msgstr "Gründen Sie ein Raketenunternehmen"
 
 #: demo/utils.py:11
 msgid "Populate Pluto, it's a much cooler planet than Mars"
-msgstr "Pobla Plutón, es un planeta mucho más genial que Marte"
+msgstr "Besiedeln Sie Pluto, es ist ein viel coolerer Planet als Mars"
 
 #: demosite/settings.py:139
 msgid "English"
-msgstr "Inglés"
+msgstr "Englisch"
 
 #: demosite/settings.py:140
 msgid "Spanish"
-msgstr "Español"
+msgstr "Spanisch"
 
 #: demosite/settings.py:141
 msgid "German"
-msgstr ""
-
-#~ msgid ""
-#~ "Alpine.js directives for component state (<s>loading ✅</s>, offline, "
-#~ "etc.)"
-#~ msgstr ""
-#~ "Directivas de Alpine.js para el estado de componente (<s>loading ✅</s>, "
-#~ "offline, etc.)"
-
-#~ msgid "Every component belongs to a \\"
-#~ msgstr "Cada componente pertenece a una \\"
-
-#~ msgid "Python type annotations"
-#~ msgstr "Resaltado de sintaxis con anotaciones de tipo"
-
-#~ msgid "Routing <s>and query strings ✅</s> for \"whole page\" components."
-#~ msgstr ""
-#~ "Enrutamiento <s>y cadenas de consulta ✅</s> para componentes de \"página "
-#~ "completa\"."
-
-#~ msgid "Redirect responses."
-#~ msgstr "Respuestas de redirección."
-
-#~ msgid "Bundling of esbuild to be npm free."
-#~ msgstr "Empaquetado de esbuild para estar libre de npm."
+msgstr "Deutsch"

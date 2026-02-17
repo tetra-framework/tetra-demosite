@@ -41,7 +41,7 @@
     </div>
   </div>
 
-  {% ShowCase title=_("See how easy it is to build a <mark>todo list</mark>") %}
+  {% ShowCase title=_("See how easy it is to build a <mark>todo list</mark>:") %}
   {% slot code %}{% comment %}The code blocks don't need translation.{% endcomment %}
     {% CodeBlock title=_("Python: Todo List") file_name="todo_list/__init__.py" language="python" / %}
     {% CodeBlock title=_("Python: Todo Item") file_name="todo_item/__init__.py" language="python" / %}
@@ -152,7 +152,7 @@
     {% translate "Methods can be made public, allowing you to easily call them from JS on the front end, resuming the component's state." %}
     {% /Col %}
     {% Col title=_("Shared public state") %}
-    {% translate "Attributes can be decorated to indicate they should be available in the browser as Alpine.js data objects." %}
+    {% translate "Attributes can be decorated as <i>@public</i> to indicate they should be available in the browser as Alpine.js data objects." %}
     {% /Col %}
     {% Col title=_("Server \"watcher\" methods") %}
     {% translate "Public methods can be instructed to watch a public attribute, enabling reactive re-rendering on the server." %}
