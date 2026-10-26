@@ -44,7 +44,7 @@ CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGINS", default=[])
 
 INSTALLED_APPS = [
     "tetra",
-    "daphne",
+    "demosite",  # uvicorn-based ASGI runserver; must precede staticfiles
     "channels",
     "django.contrib.admin",
     "django.contrib.auth",
